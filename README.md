@@ -1,4 +1,4 @@
-# PWNB-ENTREGAS
+# PWNB_ENTREGAS
 Entregas da disciplina Programação Web - 2023/2
 
 **Nome do Proprietário:** Caroline Costa Saldanha
