@@ -1,0 +1,148 @@
+body {
+    background-color: #fbfafa;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+    color: #c01e7a;
+}
+
+form#cadastro-cliente {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 2px;
+    font-weight: bold;
+    color: #c01e7a
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+#cep-info {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
+#cep-info p {
+    margin: 0;
+    font-weight: bold;
+    color: #c01e7a;
+}
+
+#cep-info input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+#cep-info input[type="text"]:disabled {
+    background-color: #eee;
+    cursor: not-allowed;
+}
+
+#cep-info input[type="text"]:disabled::placeholder {
+    color: #999;
+}
+
+button {
+    background-color: #878387;
+    color: #f4f2f2;
+    padding: 5px 25px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+#confirmar {
+    background-color: #28a745;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-container button {
+    margin: 0 30px;
+}
+
+.excluir-button,
+.alterar-button {
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.excluir-button {
+    background-color: #FF0000;
+}
+
+.alterar-button {
+    background-color: #c1c141;
+}
+
+.table-container {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: #0c0c0c
+}
+
+#tabela-clientes tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.action-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+input[name="cidade"] {
+    margin-bottom: 2px;
+}
