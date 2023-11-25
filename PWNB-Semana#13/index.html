@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Cadastro de Clientes</title>
+    <script src="cadastro.js"></script>
+</head>
+
+<body>
+    <h1>Cadastro de Clientes</h1>
+
+    <form id="cadastro-cliente">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome" required><br><br>
+
+        <label for="data-nascimento">Data de Nascimento:</label>
+        <input type="date" id="data-nascimento" name="data-nascimento" required><br><br>
+
+        <div id="cep-info">
+            <p><strong>CEP:</strong><span id="cep"></span></p>
+            <input type="text" id="cep" name="cep" required><br><br>
+            <p><strong>Endereço:</strong><span id="endereco"></span></p>
+            <input type="text" id="endereco" name="endereco" required><br><br>
+            <p><strong>N°:</strong><span id="numero-casa"></span></p>
+            <input type="text" id="numero-casa" name="numero-casa" required><br><br>
+            <p><strong>Cidade:</strong><span id="cidade"></span></p>
+            <input type="text" id="cidade" name="cidade" required><br><br>
+        </div>
+
+        <label for="tipo-cliente">Tipo de Cliente:</label>
+        <select id="tipo-cliente" name="tipo-cliente">
+            <option value="bronze">Bronze</option>
+            <option value="prata">Prata</option>
+            <option value="ouro">Ouro</option>
+            <option value="platina">Platina</option>
+            <option value="diamante">Diamante</option>
+        </select><br><br>
+
+        <div class="button-container">
+            <button type="button" id="incluir">Incluir</button>
+            <button type="button" id="limpar">Limpar</button>
+            <button type="button" id="confirmar">Confirmar Alteração</button>
+        </div>
+    </form>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Sobrenome</th>
+                    <th>Data de Nascimento</th>
+                    <th>CEP</th>
+                    <th>Endereço</th>
+                    <th>N°</th>
+                    <th>Cidade</th>
+                    <th>Tipo de Cliente</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-clientes">
+                <td>Ana</td>
+                <td>Santos da Silva</td>
+                <td>01/11/2000</td>
+                <td>00000-000</td>
+                <td>Rua Exemplo</td>
+                <td>101</td>
+                <td>São Paulo</td>
+                <td>Ouro</td>
+                <td>
+                    <button type="button" class="excluir-button">Excluir</button>
+                    <button type="button" class="alterar-button">Alterar</button>
+                </td>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
