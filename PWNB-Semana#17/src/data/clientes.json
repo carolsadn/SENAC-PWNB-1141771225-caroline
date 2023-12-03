@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "nome": "Maria",
+        "dataNascimento": "18/09/2001",
+        "cep": "12345-678",
+        "endereco": "Rua A, 123",
+        "cidade": "Cidade A",
+        "uf": "SP"
+      },
+      {
+        "id": "2",
+        "nome": "Carlos",
+        "dataNascimento": "25/01/1985",
+        "cep": "98745-612",
+        "endereco": "Rua B, 456",
+        "cidade": "Cidade B",
+        "uf": "BA"
+      },
+      {
+        "id": "3",
+        "nome": "Fernanda",
+        "dataNascimento": "30/11/1990",
+        "cep": "75369-789",
+        "endereco": "Rua C, 789",
+        "cidade": "Cidade C",
+        "uf": "RJ"
+      },
+      {
+        "id": "4",
+        "nome": "Paulo",
+        "dataNascimento": "19/05/2003",
+        "cep": "15987-423",
+        "endereco": "Rua D, 101",
+        "cidade": "Cidade D",
+        "uf": "MG"
+      },
+      {
+        "id": "5",
+        "nome": "Helena",
+        "dataNascimento": "08/10/1981",
+        "cep": "42136-000",
+        "endereco": "Rua E, 112",
+        "cidade": "Cidade E",
+        "uf": "AC"
+      }
+]
